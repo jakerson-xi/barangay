@@ -28,9 +28,3 @@
 10. **Serve the Application**: Finally, you can serve the Laravel application locally using the `artisan` command:
    ```bash
   php artisan serve
-
-
-
-
-
-
