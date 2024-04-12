@@ -20,15 +20,16 @@
 6. **Generate Application Key**: Laravel requires an application key for encryption. Generate a new application key using the `artisan` command:
       ```bash
    php artisan key:generate
+ 
 7. **Set Up the .env**:  Open the .env file in a text editor and configure the database connection settings
    
 9. **Import the existing dbs**:Create a barangay table in your MySQL PHP Admin. Inside the barangay table, import the provided barangay file. The barangay file can be found in Teams.
    
 10. **Serve the Application**: Finally, you can serve the Laravel application locally using the `artisan` command:
-      ```bash
-   php artisan serve
+   ```bash
+  php artisan serve
 
-11. This will start a development server at `http://localhost:8000` by default. You can access your Laravel application by navigating to this URL in your web browser.
+
 
 
 
